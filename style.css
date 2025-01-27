@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lexend+Giga:wght@100..900&display=swap');
+
+body{
+    /* font-family: 'Lexend Giga', sans-serif; */
+    font-family: 'Chewy', cursive;
+    background-color: rgb(250, 249, 241);
+}
+
+h1{
+    font-family: 'Chewy', cursive;
+    font-size: 48px;
+    margin: 0px 0px 24px 0px;
+}
+
+h3{
+    font-size: 13px;
+    font-family: 'Lexend Giga', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.got{
+    font-size: 54px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    position: relative;
+  }
+
+  .hide{
+    display: none;
+  }
+
+.wrapper-content{
+    display: flex;
+    gap: 50px;
+    border: 1px solid #d2d2d2;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.border-style{
+    border: 1px solid #d2d2d2;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    padding: 18px 24px;
+    border-radius: 18px;
+    background-color: rgb(128, 21, 227);
+    border-style: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 32px;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(92, 10, 169);;
+}
+
+/* .results{
+    height: 24px;
+} */
+
+.announcement{
+    padding: 8px 24px;
+    font-size: 14px;
+    border-radius: 9999px;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    bottom: 24px;
+    font-family: 'Lexend Giga', sans-serif;
+}
